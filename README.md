@@ -27,8 +27,16 @@ if id 3737 is ever used just change it to something else :p
 
 --- 
 Add it to the MTE loaders at gregtech/loaders/preload/LoaderMetaTileEntities.java
-```ItemList.Template_Multiblock.set(
+```
+import static gregtech.api.enums.MetaTileEntityIDs.TEMPLATE_MULTIBLOCK_CONTROLLER;
+```
+```
+import gregtech.common.tileentities.machines.multi.MTETemplateMultiblock;
+```
+```
+ItemList.Template_Multiblock.set(
                 new MTETemplateMultiblock(
                         TEMPLATE_MULTIBLOCK_CONTROLLER.ID,
                         "multimachine.test",
-                        "Template Multiblock").getStackForm(1L));```
+                        "Template Multiblock").getStackForm(1L));
+```
