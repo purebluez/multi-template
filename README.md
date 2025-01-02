@@ -1,15 +1,15 @@
 # GT5u Template Multiblock
 
-a barebones / minimal multiblock file for testing bugs and features
+a barebones / minimal multiblock file for testing bugs and features or making a new multi out of
 
-made it for myself but i have zero cares for what you use it for
+if code style or code is ever outdated make an issue and i will fix it. a PR would be even better too
 
 # newRepo.sh
 
 i also included a script to clone 5u and move the multi into the right location
 it probably only works on linux and i dont use windows so if i made a .bat i wouldnt be able to test it
 
-# To Register:
+# To Install:
 Download GT5u (https://github.com/GTNewHorizons/GT5-Unofficial/)
 
 This can also be done with the command:
