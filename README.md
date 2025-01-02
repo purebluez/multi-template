@@ -10,9 +10,16 @@ i also included a script to clone 5u and move the multi into the right location
 it probably only works on linux and i dont use windows so if i made a .bat i wouldnt be able to test it
 
 # To Register:
+Download GT5u (https://github.com/GTNewHorizons/GT5-Unofficial/)
+
+This can also be done with the command:
+```
+git clone https://github.com/GTNewHorizons/GT5-Unofficial/
+```
+#
 Move MTETemplateMultiblock.java into gregtech/common/tileentities/machines/multi, can be done with your file manager or with the command:
 
-Assuming you are in the GT5u directory,
+Assuming you and MTETemplateMultiblock.java are in the GT5u directory (named GT5-Unofficial by default),
 
 ```
 wget https://raw.githubusercontent.com/purebluez/multi-template/main/MTETemplateMultiblock.java && mv MTETemplateMultiblock.java src/main/java/gregtech/common/tileentities/machines/multi
