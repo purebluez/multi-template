@@ -9,23 +9,32 @@ made it for myself but i have zero cares for what you use it for
 i also included a script to clone 5u and move the multi into the right location
 it probably only works on linux and i dont use windows so if i made a .bat i wouldnt be able to test it
 
---- 
+# To Register:
+Move MTETemplateMultiblock.java into gregtech/common/tileentities/machines/multi, can be done with your file manager or with the command:
 
-**To Register:**
+Assuming you are in the GT5u directory,
 
+```
+wget https://raw.githubusercontent.com/purebluez/multi-template/main/MTETemplateMultiblock.java && mv MTETemplateMultiblock.java src/main/java/gregtech/common/tileentities/machines/multi
+```
 
+Skip this step if you used ``newRepo.sh``
+
+#
 Declare it in gregtech/api/enums/ItemList.java
 
-```Template_Multiblock,```
-
---- 
+```
+Template_Multiblock,
+```
+#
 Give it an ID in gregtech/api/enums/MetaTileEntityIDs.java
 
-```TEMPLATE_MULTIBLOCK_CONTROLLER(3737),```
+```
+TEMPLATE_MULTIBLOCK_CONTROLLER(3737),
+```
 
 if id 3737 is ever used just change it to something else :p 
-
---- 
+#
 Add it to the MTE loaders at gregtech/loaders/preload/LoaderMetaTileEntities.java
 ```
 import static gregtech.api.enums.MetaTileEntityIDs.TEMPLATE_MULTIBLOCK_CONTROLLER;
