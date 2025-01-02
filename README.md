@@ -16,6 +16,8 @@ This can also be done with the command:
 ```
 git clone https://github.com/GTNewHorizons/GT5-Unofficial/
 ```
+
+Skip this step if you used ``newRepo.sh``
 #
 Move MTETemplateMultiblock.java into gregtech/common/tileentities/machines/multi, can be done with your file manager or with the command:
 
