@@ -22,7 +22,7 @@ Move MTETemplateMultiblock.java into gregtech/common/tileentities/machines/multi
 Assuming you and MTETemplateMultiblock.java are in the GT5u directory (named GT5-Unofficial by default),
 
 ```
-wget https://raw.githubusercontent.com/purebluez/multi-template/main/MTETemplateMultiblock.java && mv MTETemplateMultiblock.java src/main/java/gregtech/common/tileentities/machines/multi
+mv MTETemplateMultiblock.java src/main/java/gregtech/common/tileentities/machines/multi
 ```
 
 Skip this step if you used ``newRepo.sh``
