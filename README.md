@@ -12,23 +12,19 @@ it probably only works on linux and i dont use windows so if i made a .bat i wou
 # To Install:
 Download GT5u (https://github.com/GTNewHorizons/GT5-Unofficial/)
 
-This can also be done with the command:
+Download MTETemplateMultiblock.java ([from in this very repo](https://github.com/purebluez/multi-template/blob/main/MTETemplateMultiblock.java))
+
+Move MTETemplateMultiblock.java into gregtech/common/tileentities/machines/multi
+
+The 3 steps above can also be done with the following commands, ran in order:
 ```
 git clone https://github.com/GTNewHorizons/GT5-Unofficial/
-```
-
-Skip this step if you used ``newRepo.sh``
-#
-Move MTETemplateMultiblock.java into gregtech/common/tileentities/machines/multi, can be done with your file manager or with the command:
-
-Assuming you and MTETemplateMultiblock.java are in the GT5u directory (named GT5-Unofficial by default),
-
-```
+cd GT5-Unofficial/
+wget https://raw.githubusercontent.com/purebluez/multi-template/main/MTETemplateMultiblock.java
 mv MTETemplateMultiblock.java src/main/java/gregtech/common/tileentities/machines/multi
 ```
 
-Skip this step if you used ``newRepo.sh``
-
+Skip the 3 steps above if you used ``newRepo.sh``
 #
 Declare it in gregtech/api/enums/ItemList.java
 
